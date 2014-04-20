@@ -1,11 +1,11 @@
 # jemdoc: menu{MENU}{research/index.html}{../}, showsource
-= Adam E. Leeper - Research 
+= Adam E. Leeper - Research
 [http://sr.stanford.edu Salisbury BioRobotics Laboratory], Stanford University
 
 == Ph.D. Thesis
 
-\[ [papers/leeper_thesis_2013.pdf pdf] \] \n
-Abstract snippet: 
+\[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/leeper_thesis_2013.pdf pdf] \] \n
+Abstract snippet:
 This dissertation presents methods for robot teleoperation, or equivalently, human-in-the-
 loop robotics. Human-in-the loop systems have the potential to handle complex tasks by
 combining the cognitive skills of a human operator with autonomous tools and behaviors.
@@ -23,9 +23,9 @@ offices, and other /unstructured/ human spaces.
 {}{img_left}{images/coffee_robot.jpg}{A Robot Autonomously Buying Coffee}{400}{200}
 
 Robots seldom leave the factory or the research lab.
-This project, 
+This project,
 [http://spectrum.ieee.org/automaton/robotics/robotics-software/pr2-robot-fetches-cup-of-coffee
-featured in IEEE Spectrum], 
+featured in IEEE Spectrum],
 is about getting robots to do things in unmodified human environments.
 As a first step, the robot was programmed to autonomously go from the 1st
 floor of the building to the coffee shop on the 3rd floor, interact with the
@@ -33,10 +33,10 @@ staff to purchase a drink, and deliver the drink to a thirsty programmer
 back in the lab.
 ~
 
-- \[ [papers/coffee_icra2013.pdf pdf] \] 
-  \[ [http://www.youtube.com/watch?v=SLGGEELcQoM YouTube Video] \] 
-Anthony Pratkanis, Adam Eric Leeper, Kenneth Salisbury. 
-Replacing the Office Intern: An Autonomous Coffee Run with a Mobile Manipulator. 
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/coffee_icra2013.pdf pdf] \]
+  \[ [http://www.youtube.com/watch?v=SLGGEELcQoM YouTube Video] \]
+Anthony Pratkanis, Adam Eric Leeper, Kenneth Salisbury.
+Replacing the Office Intern: An Autonomous Coffee Run with a Mobile Manipulator.
 ICRA, May 2013, Germany.
 
 == Assisted Teleoperation
@@ -45,16 +45,16 @@ ICRA, May 2013, Germany.
 {}{img_left}{images/cat_teaser.jpg}{An Interface for Assisted Teleoperation}{400}{200}
 
 This project combines elements of telerobotics, haptics, perception, planning, and control
-to create a flexible, powerful tool to assist teleoperators. 
+to create a flexible, powerful tool to assist teleoperators.
 The main thesis of this work is that there is no single best method for arm teleoperation
 when the goal is to work quickly while avoiding bad collisions.
-Instead, some sub-tasks will benefit from a responsive, predictable, "dumb" controller, 
+Instead, some sub-tasks will benefit from a responsive, predictable, "dumb" controller,
 while in other cases a global motion planner will be the fastest way to accomplish a subtask.
 ~
 
-- \[ [papers/2013_Humanoids_leeper-hsiao-ciocarlie-sucan-salisbury.pdf pdf] \]
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2013_Humanoids_leeper-hsiao-ciocarlie-sucan-salisbury.pdf pdf] \]
 \[ [https://www.youtube.com/watch?v=JR_hvPWtHoM YouTube Video] \]
-*Adam Leeper*, Kaijen Hsiao, Matei Ciocarlie, Ioan Sucan, and Kenneth Salisbury. 
+*Adam Leeper*, Kaijen Hsiao, Matei Ciocarlie, Ioan Sucan, and Kenneth Salisbury.
 Methods for Collision-Free Arm Teleoperation in Clutter Using Constraints from 3D Sensor Data.
 2013 IEEE-RAS International Conference on Humanoid Robots. October, 2013. Atlanata, Georgia.
 
@@ -65,21 +65,21 @@ Methods for Collision-Free Arm Teleoperation in Clutter Using Constraints from 3
 {}{img_left}{images/hri_teaser2.jpg}{An Interface For Human-in-the-Loop Manipulation}{400}{200}
 
 This project seeks to create efficient tools for directing a robot to perform manipulation tasks
-through mixed-initiative or shared-autonomy strategies. 
-While initially we targeted remote manipulation scenarios (where the robot may be in another room, or another state), 
+through mixed-initiative or shared-autonomy strategies.
+While initially we targeted remote manipulation scenarios (where the robot may be in another room, or another state),
 we have also found applications in helping a disabled person to be able to manipulate his own nearby environment.
 These tools can be used as part of a larger human-in-the-loop robotic task system, where the robot is able to ask a human operator for help when it encounters an unusual situation. Such systems may be able to bring useful robot technologies to market long before a fully autonomous robot is reliable enough for wide-scale deployment.
 ~
 
-- \[ [papers/2012_HRI_leeper-hsiao-ciocarlie-takayama-gossow.pdf pdf] \] 
-  \[ [videos/2012_HRI_remote_grasping.mp4 video (11MB)] \] 
-  A. Leeper, K. Hsiao, M. Ciocarlie, L. Takayama, D. Gossow. 
-  Strategies for Human-in-the-Loop Robotic Grasping. 
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HRI_leeper-hsiao-ciocarlie-takayama-gossow.pdf pdf] \]
+  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HRI_remote_grasping.mp4 video (11MB)] \]
+  A. Leeper, K. Hsiao, M. Ciocarlie, L. Takayama, D. Gossow.
+  Strategies for Human-in-the-Loop Robotic Grasping.
   HRI, March 2012, Boston, MA.
-- \[ [http://www.willowgarage.com/sites/default/files/rfh_im.pdf pdf] \] 
-  \[ [videos/2012_IROS_rfh.mp4 video (10MB)] \] 
-  M. Ciocarlie, K. Hsiao, A. Leeper, D. Gossow. 
-  Mobile Manipulation Through An Assistive Home Robot. 
+- \[ [http://www.willowgarage.com/sites/default/files/rfh_im.pdf pdf] \]
+  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_IROS_rfh.mp4 video (10MB)] \]
+  M. Ciocarlie, K. Hsiao, A. Leeper, D. Gossow.
+  Mobile Manipulation Through An Assistive Home Robot.
   IROS, September 2012, Vilamoura, Algarve, Portugal.
 
 == Constraint-based Haptic Rendering of Point Clouds
@@ -100,16 +100,16 @@ forces. This method is resistant to sensor noise, makes no
 assumptions about surface connectivity or orientation, and has
 fast pre-processing suitable for streaming data from a sensor.
 
-#In this project we developed an algorithm for efficient rendering of haptic forces from a point cloud. 
-#The key difference between this and previous techniques is that we do not compute an intermediate mesh representation and do not make assumptions about ordered points (i.e. from a depth image). 
+#In this project we developed an algorithm for efficient rendering of haptic forces from a point cloud.
+#The key difference between this and previous techniques is that we do not compute an intermediate mesh representation and do not make assumptions about ordered points (i.e. from a depth image).
 #Instead we use the points to dynamically compute an implicit surface near the haptic device at each time step.
 #We are working to extend this method to allow full 6-DOF interaction between the cloud and an arbitrary proxy mesh, such as a robot gripper, to enable a measure of collision avoidance and feedback for a user teleoperating a robot manipulator.
 ~
 
-- \[ [papers/2012_ICRA_leeper-chan-salisbury.pdf pdf] \] 
-  \[ [videos/2012_ICRA_3DOF_point_haptics.mp4 video (5MB)] \]
-  A. Leeper, S. Chan, K. Salisbury. 
-  Point Clouds Can Be Represented as Implicit Surfaces for Constraint-Based Haptic Rendering. 
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_ICRA_leeper-chan-salisbury.pdf pdf] \]
+  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_ICRA_3DOF_point_haptics.mp4 video (5MB)] \]
+  A. Leeper, S. Chan, K. Salisbury.
+  Point Clouds Can Be Represented as Implicit Surfaces for Constraint-Based Haptic Rendering.
   ICRA, May 2012, St Paul, MN.
 
 #A. Leeper, S. Chan, and K. Salisbury.
@@ -119,7 +119,7 @@ fast pre-processing suitable for streaming data from a sensor.
 ~
 {}{img_left}{images/haptics_teaser.jpg}{6-DOF Haptic Interaction with Point Clouds}{400}{200}
 
-We present an efficient 6-DOF haptic algorithm for rendering 
+We present an efficient 6-DOF haptic algorithm for rendering
 interaction forces between a rigid proxy object and a set of unordered
 point data. We thus explore the use of haptic feedback for remotely
 supervised robots performing grasping tasks. The robot captures
@@ -130,35 +130,35 @@ uses a haptic device to position a virtual model of the robot gripper
 the robot. The haptic algorithm enforces a proxy pose that is non-
 colliding with the observable environment, and provides both force
 and torque feedback to the operator. Once the operator confirms the
-desired gripper pose, the robot computes a collision-free arm 
+desired gripper pose, the robot computes a collision-free arm
 trajectory and executes the specified grasp. We apply this method for
 grasping a wide range of objects, previously unseen by the robot,
-from highly cluttered scenes typical of human environments. 
+from highly cluttered scenes typical of human environments.
 #Our
 #user experiment (N=20) shows that people with no prior experience
 #using the visualization system on which our interfaces are based are
-#able to successfully grasp more objects with a haptic device 
+#able to successfully grasp more objects with a haptic device
 #providing force-feedback than with just a mouse.
 
 ~
 
-- \[ [papers/2012_HS_leeper-chan-hsiao-ciocarlie-salisbury.pdf pdf] \]
-  \[ [http://www.youtube.com/watch?v=evmZexa8LFE youtube] \] 
-  \[ [videos/2012_HS_6DOF_point_haptics.mp4 video (11MB)] \] 
-  A. Leeper, S. Chan, K. Hsiao, M. Ciocarlie, K. Salisbury. 
-  Constraint-Based Haptic Rendering of Point Data for Teleoperated Robotic Grasping. 
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HS_leeper-chan-hsiao-ciocarlie-salisbury.pdf pdf] \]
+  \[ [http://www.youtube.com/watch?v=evmZexa8LFE youtube] \]
+  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HS_6DOF_point_haptics.mp4 video (11MB)] \]
+  A. Leeper, S. Chan, K. Hsiao, M. Ciocarlie, K. Salisbury.
+  Constraint-Based Haptic Rendering of Point Data for Teleoperated Robotic Grasping.
   Haptics Symposium, March 2012, Vancouver, BC, Canada.
 
 == Assisted Teleoperation
-The overall goal of this research was to investigate methods to augment remote teleoperation of a robot. 
+The overall goal of this research was to investigate methods to augment remote teleoperation of a robot.
 We approached this by employing an end-effector mounted stereo camera, and by demonstrating an algorithm for automated grasp adjustment.
 
-Portions of this work are published in: \n  
-- \[ [papers/2010_ISER_leeper-hsiao-chu-salisbury.pdf pdf] \] 
-  \[ [http://www.youtube.com/watch?v=58wmsHy-Nw0 youtube] \] 
+Portions of this work are published in: \n
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2010_ISER_leeper-hsiao-chu-salisbury.pdf pdf] \]
+  \[ [http://www.youtube.com/watch?v=58wmsHy-Nw0 youtube] \]
   A. Leeper, K. Hsiao, E. Chu, and K. Salisbury.
   Using Near-Field Stereo Vision for Robotic Grasping in Cluttered Environments.
-  Proceedings of ISER 2010. Dec, 2010. 
+  Proceedings of ISER 2010. Dec, 2010.
 
 Another video summarizing portions of this work is on youtube [http://www.youtube.com/watch?v=xY3cnMdjbow here].
 
@@ -175,12 +175,12 @@ This provides 3D information needed for pose estimates along with shape, color, 
 ~
 {}{img_left}{images/adjust3.png}{Grasp Adjust}{200}{150}
 
-\[ [videos/2010_ISER_grasp_adjust.mp4 video (5MB)] \]
-To demonstrate the utility of the above sensor we created an algorithm for automatically finding or adjusting grasp poses. 
-The algorithm attempts to optimize the value of a grasp position by evaluating features of the 3D data. 
-The grasp adjustment algorithm was implemented to inteface with ROS, an open-source robotics platform. 
-We demonstrated that the algorithm is useful for autonomous grasping and also as a grasp suggestion tool for teleoperation (see below). 
-It was generalized to work with any 3D point cloud sensor on a robot, and we have started integrating it into other parts of the ROS grasping tools. 
+\[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2010_ISER_grasp_adjust.mp4 video (5MB)] \]
+To demonstrate the utility of the above sensor we created an algorithm for automatically finding or adjusting grasp poses.
+The algorithm attempts to optimize the value of a grasp position by evaluating features of the 3D data.
+The grasp adjustment algorithm was implemented to inteface with ROS, an open-source robotics platform.
+We demonstrated that the algorithm is useful for autonomous grasping and also as a grasp suggestion tool for teleoperation (see below).
+It was generalized to work with any 3D point cloud sensor on a robot, and we have started integrating it into other parts of the ROS grasping tools.
 Details of the software can be found at [http://www.ros.org/wiki/pr2_grasp_adjust pr2_grasp_adjust].
 ~
 
@@ -188,8 +188,8 @@ Details of the software can be found at [http://www.ros.org/wiki/pr2_grasp_adjus
 ~
 {}{img_left}{images/concatenate1.png}{}{200}{150}
 
-We integrated the above technology into a teleoperation system using a PR2 robot from Willow Garage. 
-The gripper stereo sensor was mounted to the gripper of the PR2, and we enabled joystick-driven arm control from a head- or gripper-camera perspective. 
+We integrated the above technology into a teleoperation system using a PR2 robot from Willow Garage.
+The gripper stereo sensor was mounted to the gripper of the PR2, and we enabled joystick-driven arm control from a head- or gripper-camera perspective.
 The automatic grasp adjustment algorithm was integrated into this system to allow the teleoperator to move into the vicinity of an object and then execute a grasp with a couple of button presses, saving from the possible embarassment of knocking an object over by clumsy joystick movements.
 In a related strategy, the vision system enables control or constraint of some
 of the the robot's motions in the vinicinty of an object, thus reducing the number of degrees of
