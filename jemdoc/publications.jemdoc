@@ -1,0 +1,121 @@
+# jemdoc: menu{MENU}{publications.html}, showsource
+= Adam E. Leeper - Papers & Talks
+
+== Publications
+[http://scholar.google.com/citations?user=NOAVTjEAAAAJ&hl=en Google Scholar Profile]
+
+=== Ph.D. Thesis
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/leeper_thesis_2013.pdf pdf] \]
+Robot Telemanipulation in Unstructured Environments: Sensors, Algorithms, Interfaces. Adam Leeper, Stanford University, June 2013.
+
+=== Conference and Journal Papers
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2013_Humanoids_leeper-hsiao-ciocarlie-sucan-salisbury.pdf pdf] \]
+*Adam Leeper*, Kaijen Hsiao, Matei Ciocarlie, Ioan Sucan, and Kenneth Salisbury.
+Methods for Collision-Free Arm Teleoperation in Clutter Using Constraints from 3D Sensor Data.
+2013 IEEE-RAS International Conference on Humanoid Robots. October, 2013. Atlanata, Georgia.
+
+- \[ [http://workshops.acin.tuwien.ac.at/clutter2013/papers/ric2013_paper_8.pdf pdf] \]
+*Adam Leeper*, Kaijen Hsiao, Matei Ciocarlie, Ioan Sucan, and Kenneth Salisbury.
+Assisted Arm Teleoperation in Clutter
+Using Constraints from 3D Sensor Data.
+In 2nd Workshop on Robots in Clutter: Preparing robots for
+the real world (in conjunction with RSS).
+June 2013, Berlin, Germany.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/coffee_icra2013.pdf pdf] \]
+  \[ [http://spectrum.ieee.org/automaton/robotics/robotics-software/pr2-robot-fetches-cup-of-coffee IEEE Spectrum feature] \]
+Anthony Pratkanis, *Adam Eric Leeper*, Kenneth Salisbury.
+Replacing the Office Intern: An Autonomous Coffee Run with a Mobile Manipulator.
+ICRA, May 2013, Germany.
+
+- Chen, Tiffany., Ciocarlie, Matei., Cousins, Steve., Grice, Phillip M..,
+Hawkins, Kelsey., Hsiao, Kaijen., Kemp, Charlie., King, ChihHung.,
+Lazewatsky, Daniel., *Leeper, Adam Eric.*, Nguyen, Hai., Paepcke, Andreas.,
+Pantofaru, Caroline., Smart, William., and Takayama, Leila.
+Robots for humanity: using assistive robotics to empower people with disabilities.
+IEEE Robotics and Automation Magazine
+special issue on Assistive Robotics. Volume 20, Issue 1, 2013.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/rfh_im.pdf pdf] \] M. Ciocarlie, K. Hsiao, *A. Leeper*, D. Gossow. Mobile Manipulation Through an Assistive Home Robot. IROS, October 2012, Algarve, Portugal.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_ICRA_leeper-chan-salisbury.pdf pdf] \]
+  *A. Leeper*, S. Chan, K. Salisbury.
+  Point Clouds Can Be Represented as Implicit Surfaces for Constraint-Based Haptic Rendering.
+  [http://www.icra2012.org/ ICRA], May 2012, St Paul, MN.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HS_leeper-chan-hsiao-ciocarlie-salisbury.pdf pdf] \]
+  *A. Leeper*, S. Chan, K. Hsiao, M. Ciocarlie, K. Salisbury.
+  Constraint-based Haptic Rendering of Point Data for Teleoperated Robotic Grasping.
+  [http://2012.hapticssymposium.org/ IEEE Haptics Symposium], March 2012, Vancouver, BC, Canada.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HRI_leeper-hsiao-ciocarlie-takayama-gossow.pdf pdf]  \]
+  *A. Leeper*, K. Hsiao, M. Ciocarlie, L. Takayama, D. Gossow.
+  Strategies for Human-in-the-Loop Robotic Grasping.
+  [http://hri2012.org/ HRI], March 2012, Boston, MA.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2011_IROS_brewer-leeper-salisbury.pdf pdf] \]
+  R. Brewer, *A. Leeper*, K. Salisbury.
+  A Friction Differential and Cable Transmission Design for a 3-DOF Haptic Device with Spherical Kinematics.
+  [http://www.iros2011.org/ IROS], Sept. 2011, San Francisco, CA.
+
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2011_RSS_rgbd_workshop_leeper-chan-salisbury.pdf pdf] \] *A. Leeper*, S. Chan, and K. Salisbury.
+Constraint-based 3-DOF Haptic Rendering of Arbitrary Point Cloud Data. RGB-D 2011 workshop in conjuction with RSS. Los Angeles, CA. June 2011.
+
+- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2010_ISER_leeper-hsiao-chu-salisbury.pdf pdf] \]
+  *A. Leeper*, K. Hsiao, E. Chu, and K. Salisbury.
+  Using Near-Field Stereo Vision for Robotic Grasping in Cluttered Environments.
+  [http://iser2010.grasp.upenn.edu/ ISER], December 2010, New Delhi, India.
+
+- Caruso J.F., Hari P., *Leeper A.*, Coday M.A., Monda J.K., Ramey E.S., Hastings L.P., Golden M.R., and Davison S. (2009).
+  Impact of acceleration on blood lactate values derived from high-speed resistance exercise.
+  Journal of Strength and Conditioning Research. 23(7): 2009-2014.
+
+- Caruso J.F., Hari P., Coday M.A., *Leeper A.*, Ramey E.S., Monda J.K., Hastings L.P., and Davison S. (2008).
+  Performance evaluation of a high-speed inertial exercise trainer.
+  Journal of Strength and Conditioning Research. 22(6): 1760-1768.
+
+- *Leeper A.*, Coday M.A., Harikumar P. and Caruso J.F. (2007).
+  Instrumentation of a high-speed inertial exercise device with load cell transducers.
+  53rd International Instrumentation Symposium. Volume 470: ISBN 987-1-934394-18-2.
+
+== Presentations
+=== Invited Talks
+ - ``Telemanipulation using PCL."
+[http://pointclouds.org/media/rss2011.html PCL Tutorial]
+at [http://robotics.usc.edu/rss2011/ RSS 2011].
+Los Angeles, CA. July 2011.
+
+- ``Instrumentation of a High-Speed Inertial Exercise Device Using Load Cell Transducers."
+ISA EXPO 2007. Houston, TX. October 2007.
+
+=== Conference Presentations
+- ``Assisted Arm Teleoperation in Clutter Using Constraints from 3D Sensor Data."
+[http://workshops.acin.tuwien.ac.at/clutter2013/program.html
+2nd Workshop on Robots in Clutter: Preparing Robots for the Real World]
+(in conjunction with [http://rss2013.robotics.tu-berlin.de/ RSS 2013]).
+Berlin, Germany. June 2013.
+
+- ``Point Clouds Can Be Represented as Implicit Surfaces for Constraint-Based Haptic Rendering."
+[http://www.icra2012.org/ International Conference on Robotics and Automation 2012]. St. Paul, MN. May 2012.
+
+- (Poster/Demo) ``Constraint-based Haptic Rendering for Teleoperated Robot Grasping."
+[http://2012.hapticssymposium.org/ IEEE Haptics Symposium]. Vancouver, Canada. March 2012.
+
+- ``Constraint-based 3-DOF Haptic Rendering of Arbitrary Point Cloud Data."
+[http://mobilerobotics.cs.washington.edu/rgbd-workshop-2011/
+RGB-D: Advanced Reasoning with Depth Cameras]
+(workshop in conjunction with
+[http://robotics.usc.edu/rss2011/ RSS 2011]). Los Angeles, CA. June 2011.
+
+- ``Using Near-Field Stereo Vision for Robotic Grasping in Cluttered Environments."
+[http://iser2010.grasp.upenn.edu/?q=program
+12th International Sympoisum on Experimental Robotics].
+New Delhi, India. December 2010.
+
+- ``Instrumentation of a High-Speed Inertial Exercise Device Using Load Cell Transducers."
+[http://www.isa.org/Template.cfm?Section=Conferences_and_Exhibitions1&template=/Conference/ConferenceDescription.cfm&ConferenceID=2968
+53rd International Instrumentation Symposium]. Tulsa, OK. April 2007.
+
+#==Nothing
