@@ -1,19 +1,22 @@
 # jemdoc: menu{MENU}{index.html}, showsource
 = Adam E. Leeper
-[http://sr.stanford.edu Salisbury BioRobotics Laboratory], Stanford University
 
 ~~~
 {}{img_left}{images/adam_scaled.jpg}{Adam Leeper}{175}{175}
 [http://www.adamleeper.com Adam Leeper, Ph.D.]\n
-[http://me.stanford.edu/ Department of Mechanical Engineering]\n
-[http://www.stanford.edu/ Stanford University]\n\n
-[CV/LeeperResume.pdf Resume] | [CV/LeeperCV.pdf CV]
+Software Engineer, Google [https://www.google.com/atap/projecttango Project Tango]\n
+Lecturer, [http://me.stanford.edu/ Stanford University]\n
+Lecturer, [http://www.sjsu.edu/me/ San Jose State University]\n
+\n
+[CV/LeeperResume.pdf Resume] | [CV/LeeperCV.pdf CV]\n
+[https://github.com/aleeper github]
 ~~~
 
 #If you are looking for the EPGY Middle School Programming site, [EPGY/index.html go here.]
 
 == Contact
-[aleeper@stanford.edu]
+[aleeper@stanford.edu]\n
+[http://www.adamleeper.com]
 
 == Interests and Current Research
 - Robot Kinematics, Planning, and Control

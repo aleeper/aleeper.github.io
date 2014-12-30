@@ -1,0 +1,18 @@
+SHELL := /bin/bash
+PYTHON := python
+JEMDOC := $(PYTHON) jemdoc.py -c site.conf
+
+files = *.jemdoc
+
+default: install
+
+jemdoc:
+	@for i in $(files); do \
+		curr_command="$(JEMDOC) $$i";\
+		echo $$curr_command;\
+		$$curr_command; \
+	done
+
+install: jemdoc
+	mv -v *.html ../
+
