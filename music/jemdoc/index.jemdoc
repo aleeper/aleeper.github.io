@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{music/index.html}{../}, showsource
+# jemdoc: menu{../../jemdoc/MENU}{music/index.html}{../}, showsource
 = Adam E. Leeper
 [http://sr.stanford.edu Salisbury BioRobotics Laboratory], Stanford University
 

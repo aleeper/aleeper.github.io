@@ -1,3 +1,5 @@
+.PHONY : jemdoc default install
+
 SHELL := /bin/bash
 PYTHON := python
 JEMDOC := $(PYTHON) jemdoc.py -c site.conf

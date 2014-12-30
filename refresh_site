@@ -1,7 +1,0 @@
-./jemdoc.py index.jemdoc
-./jemdoc.py biography.jemdoc
-./jemdoc.py research/index.jemdoc
-./jemdoc.py music/index.jemdoc
-#./jemdoc.py simulation/index.jemdoc
-./jemdoc.py links.jemdoc
-
