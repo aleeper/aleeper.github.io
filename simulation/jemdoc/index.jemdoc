@@ -1,0 +1,52 @@
+# jemdoc: menu{../../jemdoc/MENU}{simulation/index.html}{../}, showsource
+= Adam E. Leeper - Simulation and Graphics
+
+== Raytracing
+
+~
+{}{img_left}{images/raytrace_final.jpg}{A Final Render}{240}{180}
+
+Here are my results from working through Peter Shirley's book
+[https://raytracing.github.io/books/RayTracingInOneWeekend.html Raytracing in One Weekend].
+
+- My Code: [https://github.com/aleeper/raytracer Github]
+- My Results: [https://photos.app.goo.gl/b4rX4o3zJHnZRoUM6 Album of Images]
+
+~
+
+
+
+== Tether Ball Simulation
+
+~
+{}{img_left}{images/tether_ball.gif}{Tether Ball Simulation}{240}{180}
+
+This is a quick dynamics simulation I threw together for a guest lecture in
+CS277: Experimental Haptics at Stanford University.
+
+- [http://aleeper.github.io/tether_ball_simulation/ Live Demo]
+- [https://github.com/aleeper/tether_ball_simulation/ Code on Github]
+
+~
+
+
+== MGView
+
+~
+{}{img_left}{images/mg_robot.gif}{MGView Simulation}{240}{180}
+#{}{img_left}{images/mgview_screenshot1.jpg}{MGView Screenshot}{240}{180}
+
+This is a WebGL visualizer for 3D rigid body simulation results. I first wrote
+it while teaching dynamics because students had a hard time visualizing the
+motion of multi-body systems from plots of variables over time.
+
+This was used for teaching at Stanford and San Jose State University.
+
+- [http://mgview.github.io/mgview/ MGView on Github]
+- [http://mgview.github.io/mgview/Examples.html Runnable Examples]
+
+~
+
+
+
+

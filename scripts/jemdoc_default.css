@@ -10,7 +10,7 @@ body {
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.0em;
-	width: 150px;
+	width: 175px;
 }
 
 #layout-menu a {
@@ -282,4 +282,14 @@ span.error {
 }
 span.comment {
 	color: #808080;
+}
+
+.imgtable img {
+	/*background-color: yellow;*/
+	/*border-spacing-right: 10px 0px;*/
+	margin-right: 10px;
+}
+
+.imgtable td {
+	vertical-align:top;
 }
