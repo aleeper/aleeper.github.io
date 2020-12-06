@@ -1,4 +1,4 @@
-# jemdoc: menu{../../jemdoc/MENU}{simulation/index.html}{../}, showsource
+# jemdoc: menu{../../jemdoc/MENU}{simulation/simulation.html}{../}, showsource
 = Adam E. Leeper - Simulation and Graphics
 
 == Raytracing
