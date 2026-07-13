@@ -5,6 +5,7 @@
       "label": "Build Site",
       "type": "shell",
       "command": "npm run build",
+      "detail": "jemdoc in TeX Live Docker container, then assemble _site/",
       "options": {
         "cwd": "${workspaceFolder}"
       },

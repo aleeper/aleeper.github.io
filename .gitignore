@@ -1,0 +1,10 @@
+# Local build output
+_site/
+
+# Old/scratch build dirs
+_site_test/
+_site_verify/
+
+# Python
+__pycache__/
+*.pyc

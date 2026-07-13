@@ -2,10 +2,10 @@
   "name": "aleeper-github-io",
   "private": true,
   "scripts": {
+    "build": "./scripts/build_site.sh",
     "site:assemble": "./scripts/build_site.sh",
-    "build": "npm run site:assemble",
     "serve": "./scripts/serve_site.sh",
     "preview": "npm run build && npm run serve",
-    "jemdoc": "make"
+    "jemdoc": "./scripts/jemdoc.sh"
   }
 }
