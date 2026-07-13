@@ -1,0 +1,12 @@
+{
+  "name": "aleeper-github-io",
+  "private": true,
+  "scripts": {
+    "cv:build": "npm --prefix ../cv run build",
+    "site:assemble": "./scripts/build_site.sh",
+    "build": "npm run cv:build && npm run site:assemble",
+    "serve": "./scripts/serve_site.sh",
+    "preview": "npm run build && npm run serve",
+    "jemdoc": "make"
+  }
+}
