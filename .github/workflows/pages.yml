@@ -43,17 +43,8 @@ jobs:
           path: cv
 
       - name: Build CV PDFs
-        uses: xu-cheng/latex-action@v4
-        with:
-          root_file: LeeperCV.tex
-          working_directory: cv
-          os: debian
-          latexmk_shell_escape: true
-          extra_system_packages: ghostscript
-          pre_compile: |
-            latexmk -pdf -shell-escape -file-line-error -halt-on-error -interaction=nonstopmode -jobname=LeeperCV_build '\newcommand\ResumeCV{0}\input{LeeperCV.tex}'
-            mv LeeperCV_build.pdf LeeperResume.pdf
-          post_compile: latexmk -c
+        working-directory: cv
+        run: ./scripts/build_cv_container.sh
 
       - name: Build website artifact
         working-directory: website
