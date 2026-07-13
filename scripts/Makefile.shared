@@ -1,7 +1,7 @@
 .PHONY : jemdoc default install
 
 SHELL := /bin/bash
-PYTHON := python
+PYTHON ?= python3
 JEMDOC := $(PYTHON) jemdoc.py -c site.conf
 
 files = *.jemdoc
@@ -17,4 +17,3 @@ jemdoc:
 
 install: jemdoc
 	mv -v *.html ../
-
