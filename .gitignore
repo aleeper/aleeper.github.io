@@ -1,6 +1,12 @@
 # Local build output
 _site/
 
+# Generated jemdoc HTML (built in CI / via npm run build)
+/*.html
+music/music.html
+research/research.html
+simulation/simulation.html
+
 # Old/scratch build dirs
 _site_test/
 _site_verify/

@@ -10,7 +10,7 @@ Use `npm` as the local task runner from the repository root:
 - `npm run site:assemble` is an alias for `build`
 - `npm run serve` serves the already-built `_site/` at `http://localhost:8888`
 - `npm run preview` rebuilds the site and starts the local preview server
-- `npm run jemdoc` regenerates the checked-in HTML from jemdoc sources only (no `_site/` assembly)
+- `npm run jemdoc` regenerates HTML from jemdoc sources only (no `_site/` assembly). Generated HTML is gitignored; edit jemdoc sources and build locally or via CI.
 
 Notes:
 
