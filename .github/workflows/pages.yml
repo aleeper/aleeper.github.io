@@ -5,11 +5,6 @@ on:
     branches:
       - master
   workflow_dispatch:
-  schedule:
-    - cron: '17 9 * * *'
-  repository_dispatch:
-    types:
-      - cv-updated
 
 concurrency:
   group: pages
@@ -23,37 +18,19 @@ jobs:
     steps:
       - name: Check out website
         uses: actions/checkout@v7
-        with:
-          path: website
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Check out CV
-        uses: actions/checkout@v7
-        with:
-          repository: aleeper/cv
-          path: cv
-
-      - name: Build CV PDFs
-        working-directory: cv
-        run: ./scripts/build_cv_container.sh
-
       - name: Build website artifact
-        working-directory: website
-        run: npm run site:assemble -- "$GITHUB_WORKSPACE/cv" "$PWD/_site"
+        run: npm run site:assemble
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website/_site
+          path: _site
 
   deploy:
     needs: build
