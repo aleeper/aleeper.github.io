@@ -685,8 +685,9 @@ def replacelinks(b):
     if external:
       m1 = m1[1:].lstrip()
 
+    # Treat @ as email only when the target is not already a URL.
     if '@' in m1 and not m1.startswith('mailto:') and not \
-       m1.startswith('http://'):
+       m1.startswith('http://') and not m1.startswith('https://'):
       link = 'mailto:' + m1
     else:
       link = m1
