@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{teaching.html}, showsource
-= Adam E. Leeper - Teaching
+= Dr. Adam Leeper - Teaching
 
 == Current Courses
 - (none)
@@ -10,19 +10,19 @@
 - ENGR 105: Feedback Control Design, Stanford University, Winter 2016
 - ENGR 105: Feedback Control Design, Stanford University, Winter 2015
 - ENGR 14: Statics, Stanford University, Spring 2014
-- [teaching/me101 ME 101: Dynamics], San Jose State University, Fall 2013
-- [teaching/me101 ME 101: Dynamics], San Jose State University, Fall 2012
+- ME 101: Dynamics, San Jose State University, Fall 2013
+- ME 101: Dynamics, San Jose State University, Fall 2012
 - ME 101: Dynamics, San Jose State University, Fall 2011
-- [http://summerinstitutes.stanford.edu/ EPGY Summer Institutes], MSP Computer Programming, Summer 2010
+- [^https://summerinstitutes.spcs.stanford.edu/ EPGY Summer Institutes], MSP Computer Programming, Summer 2010
 === Course Assistant
 - ME 331b: Advanced Dynamics and Simulation
-  with [http://www.stanford.edu/~mitiguy Paul Mitiguy], Spring 2012
-- [http://cs277.stanford.edu CS 277: Experimental Haptics]
+  with [^http://www.stanford.edu/~mitiguy Paul Mitiguy], Spring 2012
+- [^http://cs277.stanford.edu CS 277: Experimental Haptics]
   with Ken Salisbury, Winter 2011
-- [http://cs223a.stanford.edu CS 223a: Intro to Robotics]
+- [^http://cs223a.stanford.edu CS 223a: Intro to Robotics]
   with Oussama Khatib, Winter 2010
-- [http://www.stanford.edu/class/engr15/ ENGR 15: Dynamics] with
-  [http://www.stanford.edu/~mitiguy Paul Mitiguy], Fall 2009
+- [^http://www.stanford.edu/class/engr15/ ENGR 15: Dynamics] with
+  [^http://www.stanford.edu/~mitiguy Paul Mitiguy], Fall 2009
 
 
 #==Nothing

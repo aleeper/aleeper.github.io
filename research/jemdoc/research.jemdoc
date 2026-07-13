@@ -1,12 +1,12 @@
 # jemdoc: menu{../../jemdoc/MENU}{research/research.html}{../}, showsource
-= Adam E. Leeper - Research
+= Dr. Adam Leeper - Research
 
 Research conducted in connection with the Stanford University
-[http://sr.stanford.edu Salisbury BioRobotics Laboratory] and Willow Garage.
+[^http://sr.stanford.edu Salisbury BioRobotics Laboratory] and Willow Garage.
 
 == Ph.D. Thesis
 
-\[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/leeper_thesis_2013.pdf pdf] \] \n
+\[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/leeper_thesis_2013.pdf pdf] \] \n
 Abstract snippet:
 This dissertation presents methods for robot teleoperation, or equivalently, human-in-the-
 loop robotics. Human-in-the loop systems have the potential to handle complex tasks by
@@ -26,7 +26,7 @@ offices, and other /unstructured/ human spaces.
 
 Robots seldom leave the factory or the research lab.
 This project,
-[http://spectrum.ieee.org/automaton/robotics/robotics-software/pr2-robot-fetches-cup-of-coffee
+[^http://spectrum.ieee.org/automaton/robotics/robotics-software/pr2-robot-fetches-cup-of-coffee
 featured in IEEE Spectrum],
 is about getting robots to do things in unmodified human environments.
 As a first step, the robot was programmed to autonomously go from the 1st
@@ -35,8 +35,8 @@ staff to purchase a drink, and deliver the drink to a thirsty programmer
 back in the lab.
 ~
 
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/coffee_icra2013.pdf pdf] \]
-  \[ [http://www.youtube.com/watch?v=SLGGEELcQoM YouTube Video] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/coffee_icra2013.pdf pdf] \]
+  \[ [^http://www.youtube.com/watch?v=SLGGEELcQoM YouTube Video] \]
 Anthony Pratkanis, Adam Eric Leeper, Kenneth Salisbury.
 Replacing the Office Intern: An Autonomous Coffee Run with a Mobile Manipulator.
 ICRA, May 2013, Germany.
@@ -54,8 +54,8 @@ Instead, some sub-tasks will benefit from a responsive, predictable, "dumb" cont
 while in other cases a global motion planner will be the fastest way to accomplish a subtask.
 ~
 
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2013_Humanoids_leeper-hsiao-ciocarlie-sucan-salisbury.pdf pdf] \]
-\[ [https://www.youtube.com/watch?v=JR_hvPWtHoM YouTube Video] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2013_Humanoids_leeper-hsiao-ciocarlie-sucan-salisbury.pdf pdf] \]
+\[ [^https://www.youtube.com/watch?v=JR_hvPWtHoM YouTube Video] \]
 *Adam Leeper*, Kaijen Hsiao, Matei Ciocarlie, Ioan Sucan, and Kenneth Salisbury.
 Methods for Collision-Free Arm Teleoperation in Clutter Using Constraints from 3D Sensor Data.
 2013 IEEE-RAS International Conference on Humanoid Robots. October, 2013. Atlanata, Georgia.
@@ -73,13 +73,13 @@ we have also found applications in helping a disabled person to be able to manip
 These tools can be used as part of a larger human-in-the-loop robotic task system, where the robot is able to ask a human operator for help when it encounters an unusual situation. Such systems may be able to bring useful robot technologies to market long before a fully autonomous robot is reliable enough for wide-scale deployment.
 ~
 
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HRI_leeper-hsiao-ciocarlie-takayama-gossow.pdf pdf] \]
-  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HRI_remote_grasping.mp4 video (11MB)] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HRI_leeper-hsiao-ciocarlie-takayama-gossow.pdf pdf] \]
+  \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HRI_remote_grasping.mp4 video (11MB)] \]
   A. Leeper, K. Hsiao, M. Ciocarlie, L. Takayama, D. Gossow.
   Strategies for Human-in-the-Loop Robotic Grasping.
   HRI, March 2012, Boston, MA.
-- \[ [http://www.willowgarage.com/sites/default/files/rfh_im.pdf pdf] \]
-  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_IROS_rfh.mp4 video (10MB)] \]
+- \[ [^http://www.willowgarage.com/sites/default/files/rfh_im.pdf pdf] \]
+  \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_IROS_rfh.mp4 video (10MB)] \]
   M. Ciocarlie, K. Hsiao, A. Leeper, D. Gossow.
   Mobile Manipulation Through An Assistive Home Robot.
   IROS, September 2012, Vilamoura, Algarve, Portugal.
@@ -108,8 +108,8 @@ fast pre-processing suitable for streaming data from a sensor.
 #We are working to extend this method to allow full 6-DOF interaction between the cloud and an arbitrary proxy mesh, such as a robot gripper, to enable a measure of collision avoidance and feedback for a user teleoperating a robot manipulator.
 ~
 
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_ICRA_leeper-chan-salisbury.pdf pdf] \]
-  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_ICRA_3DOF_point_haptics.mp4 video (5MB)] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_ICRA_leeper-chan-salisbury.pdf pdf] \]
+  \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_ICRA_3DOF_point_haptics.mp4 video (5MB)] \]
   A. Leeper, S. Chan, K. Salisbury.
   Point Clouds Can Be Represented as Implicit Surfaces for Constraint-Based Haptic Rendering.
   ICRA, May 2012, St Paul, MN.
@@ -144,9 +144,9 @@ from highly cluttered scenes typical of human environments.
 
 ~
 
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HS_leeper-chan-hsiao-ciocarlie-salisbury.pdf pdf] \]
-  \[ [http://www.youtube.com/watch?v=evmZexa8LFE youtube] \]
-  \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HS_6DOF_point_haptics.mp4 video (11MB)] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2012_HS_leeper-chan-hsiao-ciocarlie-salisbury.pdf pdf] \]
+  \[ [^http://www.youtube.com/watch?v=evmZexa8LFE youtube] \]
+  \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2012_HS_6DOF_point_haptics.mp4 video (11MB)] \]
   A. Leeper, S. Chan, K. Hsiao, M. Ciocarlie, K. Salisbury.
   Constraint-Based Haptic Rendering of Point Data for Teleoperated Robotic Grasping.
   Haptics Symposium, March 2012, Vancouver, BC, Canada.
@@ -156,13 +156,13 @@ The overall goal of this research was to investigate methods to augment remote t
 We approached this by employing an end-effector mounted stereo camera, and by demonstrating an algorithm for automated grasp adjustment.
 
 Portions of this work are published in: \n
-- \[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2010_ISER_leeper-hsiao-chu-salisbury.pdf pdf] \]
-  \[ [http://www.youtube.com/watch?v=58wmsHy-Nw0 youtube] \]
+- \[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/papers/2010_ISER_leeper-hsiao-chu-salisbury.pdf pdf] \]
+  \[ [^http://www.youtube.com/watch?v=58wmsHy-Nw0 youtube] \]
   A. Leeper, K. Hsiao, E. Chu, and K. Salisbury.
   Using Near-Field Stereo Vision for Robotic Grasping in Cluttered Environments.
   Proceedings of ISER 2010. Dec, 2010.
 
-Another video summarizing portions of this work is on youtube [http://www.youtube.com/watch?v=xY3cnMdjbow here].
+Another video summarizing portions of this work is on youtube [^http://www.youtube.com/watch?v=xY3cnMdjbow here].
 
 === Gripper Stereo
 
@@ -177,13 +177,13 @@ This provides 3D information needed for pose estimates along with shape, color, 
 ~
 {}{img_left}{images/adjust3.png}{Grasp Adjust}{200}{150}
 
-\[ [https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2010_ISER_grasp_adjust.mp4 video (5MB)] \]
+\[ [^https://s3-us-west-1.amazonaws.com/adamleeper.com/videos/2010_ISER_grasp_adjust.mp4 video (5MB)] \]
 To demonstrate the utility of the above sensor we created an algorithm for automatically finding or adjusting grasp poses.
 The algorithm attempts to optimize the value of a grasp position by evaluating features of the 3D data.
 The grasp adjustment algorithm was implemented to inteface with ROS, an open-source robotics platform.
 We demonstrated that the algorithm is useful for autonomous grasping and also as a grasp suggestion tool for teleoperation (see below).
 It was generalized to work with any 3D point cloud sensor on a robot, and we have started integrating it into other parts of the ROS grasping tools.
-Details of the software can be found at [http://www.ros.org/wiki/pr2_grasp_adjust pr2_grasp_adjust].
+Details of the software can be found at [^http://www.ros.org/wiki/pr2_grasp_adjust pr2_grasp_adjust].
 ~
 
 === Assisted Grasping for Teleoperation

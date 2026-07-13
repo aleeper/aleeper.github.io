@@ -1,16 +1,16 @@
 # jemdoc: menu{MENU}{index.html}, showsource
-= Adam E. Leeper
+= Dr. Adam Leeper
 
 ~~~
 {}{img_left}{images/adam_headshot_2024.jpg}{Adam Leeper}{175}{175}
-[http://www.adamleeper.com Adam Leeper, Ph.D.]\n
-Engineering at [http://applied.co Applied Intuition]\n
-#Lecturer, [http://me.stanford.edu/ Stanford University]\n
-#Lecturer, [http://www.sjsu.edu/me/ San Jose State University]\n
+[http://www.adamleeper.com Dr. Adam Leeper]\n
+Engineering at [^http://applied.co Applied Intuition]\n
+#Lecturer, [^http://me.stanford.edu/ Stanford University]\n
+#Lecturer, [^http://www.sjsu.edu/me/ San Jose State University]\n
 \n\n\n
-[https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperResume.pdf Resume] | [https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperCV.pdf CV]\n
-[https://github.com/aleeper github]\n
-[https://www.linkedin.com/in/adam-leeper-3187a110/ LinkedIn]
+[^https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperResume.pdf Resume] | [^https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperCV.pdf CV]\n
+[^https://github.com/aleeper github]\n
+[^https://www.linkedin.com/in/adam-leeper-3187a110/ LinkedIn]
 ~~~
 
 #If you are looking for the EPGY Middle School Programming site, [EPGY/index.html go here.]

@@ -37,6 +37,22 @@ a:hover {
 	border-bottom: 1px gray dotted;
 }
 
+a .extlink {
+	display: inline-block;
+	margin-left: 0.18em;
+	vertical-align: -0.08em;
+	line-height: 0;
+	border-bottom: none !important;
+}
+
+a:hover .extlink {
+	border-bottom: none !important;
+}
+
+a .extlink svg {
+	display: block;
+}
+
 #layout-menu a.current:link, #layout-menu a.current:visited {
 	color: #022b6d;
 	border-bottom: 1px gray solid;
@@ -292,4 +308,32 @@ span.comment {
 
 .imgtable td {
 	vertical-align:top;
+}
+
+span.jemdoc-audio {
+	margin: 0;
+	padding: 0;
+}
+
+span.jemdoc-audio.is-open {
+	display: block;
+	width: 100%;
+}
+
+span.jemdoc-audio .audio-panel {
+	display: none;
+	width: 100%;
+	margin: 0.45em 0 0.1em 0;
+	padding: 0;
+}
+
+span.jemdoc-audio.is-open .audio-panel {
+	display: block;
+}
+
+span.jemdoc-audio audio {
+	display: block;
+	width: 100%;
+	max-width: 28em;
+	margin: 0;
 }

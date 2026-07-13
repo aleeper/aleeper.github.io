@@ -27,6 +27,7 @@ import os
 import re
 import time
 import io
+import html
 from subprocess import *
 import tempfile
 
@@ -328,10 +329,15 @@ def insertmenuitems(f, mname, current, prefix):
     r = re.match(r'\s*(.*?)\s*\[(.*)\]', l)
 
     if r: # then we have a menu item.
-      link = r.group(2)
+      link = r.group(2).strip()
+      external = link.startswith('^')
+      if external:
+        link = link[1:].lstrip()
       # Don't use prefix if we have an absolute link.
-      if '://' not in r.group(2):
+      if '://' not in link:
         link = prefix + allreplace(link)
+      else:
+        link = allreplace(link)
 
       # replace spaces with nbsps.
       # do do this, even though css would make it work - ie ignores.
@@ -352,7 +358,13 @@ def insertmenuitems(f, mname, current, prefix):
           else:
             menuitem += br(re.sub(r'(?<!\\n) +', '~', group), f)
 
-      if link[-len(current):] == current:
+      if external:
+        hb(f.outf, f.conf.get('externalmenuitem',
+          '<div class="menu-item"><a href="|1" target="_blank" '
+          'rel="noopener noreferrer">|2' + externallinkicon(raw=True) +
+          '</a></div>\n'),
+          link, menuitem)
+      elif link[-len(current):] == current:
         hb(f.outf, f.conf['currentmenuitem'], link, menuitem)
       else:
         hb(f.outf, f.conf['menuitem'], link, menuitem)
@@ -364,6 +376,19 @@ def insertmenuitems(f, mname, current, prefix):
 
 def out(f, s):
   f.write(s)
+
+def externallinkicon(raw=False):
+  """SVG external-link mark. If raw=False, wrap in {{...}} for jemdoc quoting."""
+  icon = ('<span class="extlink" aria-hidden="true">'
+          '<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" '
+          'viewBox="0 0 16 16" fill="#80a0b0" focusable="false">'
+          '<path d="M4 3.25A.75.75 0 0 0 3.25 4v8c0 .414.336.75.75.75h8a.75.75 '
+          '0 0 0 .75-.75V9.5H11.5v2.25h-7v-7H6.75V3.25H4zm5.25 0V4.5h2.19L6.22 '
+          '9.72l1.06 1.06 5.22-5.22v2.19H14V3.25H9.25z"/>'
+          '</svg></span>')
+  if raw:
+    return icon
+  return '{{' + icon + '}}'
 
 def hb(f, tag, content1, content2=None):
   """Writes out a halfblock (hb)."""
@@ -606,6 +631,47 @@ def replaceimages(b):
 
   return b
 
+def replaceaudio(b):
+  # works with [audio url optional title].
+  r = re.compile(r'(?<!\\)\[audio\s+(.*?)(?:\s(.*?))?(?<!\\)\]', re.M + re.S)
+  m = r.search(b)
+  while m:
+    url = m.group(1).strip()
+    title = m.group(2).strip() if m.group(2) else ''
+    placeholder = quote('JEMDOCAUDIOSTART %s JEMDOCAUDIOTITLE %s JEMDOCAUDIOEND' % (url, title))
+    b = b[:m.start()] + placeholder + b[m.end():]
+
+    m = r.search(b, m.start())
+
+  return b
+
+def expandaudio(b):
+  r = re.compile(r'JEMDOCAUDIOSTART (.*?) JEMDOCAUDIOTITLE (.*?) JEMDOCAUDIOEND', re.M + re.S)
+  m = r.search(b)
+  while m:
+    url = m.group(1).strip()
+    title = m.group(2).strip()
+
+    if title:
+      label = html.escape(title)
+    else:
+      label = 'Listen'
+
+    html_block = (
+      r'<span class="jemdoc-audio">'
+      r'<a class="audio-toggle" href="#">%s</a>'
+      r'<span class="audio-panel" hidden="hidden">'
+      r'<audio controls preload="none" src="%s"></audio>'
+      r'</span>'
+      r'</span>'
+    ) % (label, html.escape(url, quote=True))
+
+    b = b[:m.start()] + html_block + b[m.end():]
+
+    m = r.search(b, m.start())
+
+  return b
+
 def replacelinks(b):
   # works with [link.html new link style].
   # Prefix the URL with ^ to open the link in a new tab, e.g.
@@ -639,8 +705,10 @@ def replacelinks(b):
       # remove any mailto before labelling.
       linkname = re.sub('^mailto:', '', link)
 
-    attrs = ' target="_blank" rel="noopener noreferrer"' if external else ''
-    b = b[:m.start()] + r'<a href=\"%s\"%s>%s<\/a>' % (link, attrs, linkname) + b[m.end():]
+    attrs = ' target=\\"_blank\\" rel=\\"noopener noreferrer\\"' if external else ''
+    # Wrap icon in {{...}} so jemdoc's raw-HTML quoting protects it through later passes.
+    icon = externallinkicon() if external else ''
+    b = b[:m.start()] + r'<a href=\"%s\"%s>%s%s<\/a>' % (link, attrs, linkname, icon) + b[m.end():]
 
     m = r.search(b, m.start())
 
@@ -672,6 +740,7 @@ def br(b, f, tableblock=False):
 
   b = b.lstrip('-. \t') # remove leading spaces, tabs, dashes, dots.
   b = replaceimages(b) # jem not sure if this is still used.
+  b = replaceaudio(b)
 
   # Slightly nasty hackery in this next bit.
   b = replacepercents(b)
@@ -775,6 +844,8 @@ def br(b, f, tableblock=False):
   # Also fix up DOUBLEOPEN and DOUBLECLOSEBRACES.
   b = re.sub('DOUBLEOPENBRACE', '{{', b)
   b = re.sub('DOUBLECLOSEBRACE', '}}', b)
+
+  b = expandaudio(b)
 
   return b
 
