@@ -49,4 +49,9 @@ CV PDFs are published to:
 - `https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperResume.pdf`
 - `https://s3-us-west-1.amazonaws.com/adamleeper.com/cv/LeeperCV.pdf`
 
-Other historical assets remain on S3 under `s3-us-west-1.amazonaws.com/adamleeper.com`, including papers, videos, music, and future mechanics PDFs.
+Mechanics PDFs are published from the sibling `../engineering_mechanics` repository (`npm run deploy` there) to:
+
+- `https://s3-us-west-1.amazonaws.com/adamleeper.com/mechanics/reader.pdf`
+- `https://s3-us-west-1.amazonaws.com/adamleeper.com/mechanics/primer.pdf`
+
+Other historical assets remain on S3 under `s3-us-west-1.amazonaws.com/adamleeper.com`, including papers, videos, and music.
