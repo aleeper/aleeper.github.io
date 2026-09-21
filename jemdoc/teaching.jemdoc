@@ -1,6 +1,10 @@
 # jemdoc: menu{MENU}{teaching.html}, showsource
 = Dr. Adam Leeper - Teaching
 
+== Teaching Materials
+- [^https://s3-us-west-1.amazonaws.com/adamleeper.com/mechanics/reader.pdf Worked Examples in Vector Mechanics]
+- [^https://s3-us-west-1.amazonaws.com/adamleeper.com/mechanics/primer.pdf Vector Mechanics Primer]
+
 == Current Courses
 - (none)
 
@@ -14,6 +18,7 @@
 - ME 101: Dynamics, San Jose State University, Fall 2012
 - ME 101: Dynamics, San Jose State University, Fall 2011
 - [^https://summerinstitutes.spcs.stanford.edu/ EPGY Summer Institutes], MSP Computer Programming, Summer 2010
+
 === Course Assistant
 - ME 331b: Advanced Dynamics and Simulation
   with [^http://www.stanford.edu/~mitiguy Paul Mitiguy], Spring 2012
@@ -23,6 +28,10 @@
   with Oussama Khatib, Winter 2010
 - [^http://www.stanford.edu/class/engr15/ ENGR 15: Dynamics] with
   [^http://www.stanford.edu/~mitiguy Paul Mitiguy], Fall 2009
+
+=== Invited Guest Lectures
+- "Visualization with MGView", ME 331b: Advanced Dynamics and Simulation, Stanford University, with Dr. Paul Mitiguy, 2016–2026
+- "Visualization with MGView", ME 101: Dynamics, San José State University, with Dr. Burford Furman, 2025–2026
 
 
 #==Nothing
